@@ -1,0 +1,16 @@
+<html lang="en">
+
+<head>
+    <title>Sad?</title>
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='landing_page.css') }}">
+</head>
+
+<body>
+    <div id='container'>
+        <h1>Welcome, Friend</h1>
+        <br />
+        <a href="{{ url_for('lily') }}"><h3>I'm sad and don't want to be.</h3></a>
+        <br />
+        <a href="{{ url_for('sad') }}"><h3>I'm sad and want to be.</h3></a>
+    </div>
+</body>
